@@ -40,6 +40,19 @@ class _MyHomePageState extends State<MyHomePage> {
               ), // Add the desired icon here
             ),
             const SizedBox(height: 16),
+            Center(
+              child: Row(
+                children: [
+                  Text('Cadastre o seu filme',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                    
+                  ),)
+                  
+                ],
+              ),
+            ),
             // Titulo e Text Input
             Row(
               children: [
